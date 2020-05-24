@@ -1,0 +1,3 @@
+[submodule "QtQML-BaaS"]
+	path = QtQML-BaaS
+	url = git@github.com:a-team-fr/QtQML-BaaS.git
