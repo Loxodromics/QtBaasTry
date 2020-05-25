@@ -29,9 +29,23 @@ ApplicationWindow {
     }
 
     Button {
+        id: registerButton
         text: "register"
+
+        anchors.top: parent.top
+
         onClicked: {
             backend.registerUser("philipp", "543211!")
+        }
+    }
+
+    Button {
+        id: loginButton
+        text: "login"
+
+        anchors.top: registerButton.bottom
+        onClicked: {
+            backend.signIn("philipp", "543211!")
         }
     }
 
